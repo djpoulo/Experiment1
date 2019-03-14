@@ -1,0 +1,22 @@
+ // This program shows the problem 2 of experiment 1
+#include <iostream>
+
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+    double mass,density,volume;
+    
+    cout << "Enter mass: " ;
+    cin >> mass;
+    cout << "Enter density: ";
+    cin >> density;
+
+    volume = mass / density;
+
+    cout << "Volume is " << volume <<endl;
+
+    return 0;
+}
